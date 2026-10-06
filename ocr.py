@@ -1,14 +1,13 @@
 import pytesseract
-
-
-# Tesseract OCR path for Windows
-pytesseract.pytesseract.tesseract_cmd = (
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-)
-
+import shutil
 
 def extract_text(image):
+    tesseract_path = shutil.which("tesseract")
 
-    text = pytesseract.image_to_string(image)
+    if tesseract_path:
+        pytesseract.pytesseract.tesseract_cmd = tesseract_path
 
-    return text
+    try:
+        return pytesseract.image_to_string(image)
+    except Exception as e:
+        return f"OCR Error: {e}"
