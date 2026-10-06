@@ -18,21 +18,27 @@ Instead of manually typing questions from a question paper, users can upload an 
 
  https://examsnap-ai-mmisk2nfyean4vgyjuqvii.streamlit.app/
 
+
 ### Main Workflow
 
 **Question Paper Image**
+
 ↓
 
 **OCR Text Extraction**
+
 ↓
 
 **Question Detection**
+
 ↓
 
 **Question Selection**
+
 ↓
 
 **AI Answer Generation**
+
 ↓
 
 **Answer Display**
