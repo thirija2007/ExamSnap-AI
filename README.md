@@ -22,14 +22,19 @@ Instead of manually typing questions from a question paper, users can upload an 
 
 **Question Paper Image**
 ↓
+
 **OCR Text Extraction**
 ↓
+
 **Question Detection**
 ↓
+
 **Question Selection**
 ↓
+
 **AI Answer Generation**
 ↓
+
 **Answer Display**
 
 ---
